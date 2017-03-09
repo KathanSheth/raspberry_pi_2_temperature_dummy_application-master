@@ -22,6 +22,8 @@ RUN ls
 
 WORKDIR /usr/src/app
 
+RUN ls
+
 COPY app/ /usr/src/app
 RUN ls /usr/src/app/Adafruit_Python_DHT
 
